@@ -1,0 +1,384 @@
+*{
+    margin-right:0px;
+    padding-right: 0px;
+    border-right: 0px;
+}
+
+    body{
+        width: 100%;
+        height:100%;
+        overflow-x: hidden;
+    margin:0px;
+    padding: 0px;
+    
+}
+.head{
+    background-color: rgb(194, 255, 251);
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-top: 0px;
+    margin-bottom: 0px;
+}
+.headtext{
+    text-align: center;
+}
+
+h1{
+    margin: 0px;
+    margin-left: 0px;
+    font-family: 'Sacramento', cursive;
+    font-size: 90px;
+    padding-top: 200px;
+    padding-bottom: 0px;
+    
+
+}
+.tagline{
+    margin: 0px;
+    margin-left: 0px;
+    font-family: 'Merriweather', serif;
+    padding-bottom: 250px;
+    margin-bottom: 0px;
+}
+.cake1{
+    width: 100%;
+    margin-top: 0px;
+    padding-top: 0px;
+    height: 100%;
+    
+}
+.block2{
+    padding:27%;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    text-shadow:3px 3px black ;
+
+}
+.block3{
+    text-align: center;
+    padding-top:25%;
+    padding-bottom:25%;
+    margin: auto;
+    color: black;
+}
+.b1{
+    width:20%;
+    
+}
+.b2{
+    width:20%;
+}
+.b3{
+    width:20%;
+}
+.logo{
+    
+    width:33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    
+    width: 60px;
+    height: 60px;
+    border: 3px solid white;
+    border-radius: 50px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgb(253, 199, 250),rgb(194, 255, 251));
+    top: 0;
+    cursor: pointer;
+}
+.navlist{
+     width:70%;
+     display: flex;
+     justify-items: center;
+     align-items: center;
+     
+}
+.navlist li{
+    list-style: none;
+    padding:26px 30px;
+}
+.navlist li a{
+    text-decoration: none;
+    color:rgb(4, 134, 134);
+}
+.navlist li a:hover{
+    text-decoration: none;
+    color:rgb(199, 8, 151);
+}
+.rightnav{
+    text-align: right;
+    width: 30%;
+    padding: 0px 23px;
+    
+}
+#search{
+    
+    padding: 5px;
+    border: 2px solid rgb(17, 162, 167);
+    border-radius: 12px;
+}
+
+.background{
+    background: rgba(0,0 , 0, 0.7) url(https://media-cdn.tripadvisor.com/media/photo-s/1a/74/15/03/always-so-many-cakes.jpg);
+    background-size: cover;
+    background-blend-mode: hard-light;
+    opacity: 0.8;
+}
+.btn{
+    padding: 8px 20px;
+    margin: 7px 3px;
+    border: 2px solid rgb(17, 162, 167);
+    border-radius: 8px;
+    background: none;
+    color: rgb(17, 162, 167);
+    cursor: pointer;
+}
+.btn-sm{
+    padding: 6px 10px;
+    vertical-align: middle;
+}
+.form{
+    margin:auto;
+    width:33%;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: 'Merriweather', serif;
+    padding: 35px;
+    border: 2px solid rgb(255, 255, 255);
+    background-image: linear-gradient(rgb(209, 252, 250),rgb(246, 223, 247));
+   
+    
+    background-blend-mode:lighten;
+    border-width: 5px;
+    border-radius: 12px;
+}
+.box{
+    padding: 17px;
+    border: 2px solid rgb(240, 190, 241);
+    border-radius: 12px;
+}
+
+
+.formsubmit {
+    background: #2ff3fa;
+    background-image: -webkit-linear-gradient(top, #2ff3fa, #f076e2);
+    background-image: -moz-linear-gradient(top, #2ff3fa, #f076e2);
+    background-image: -ms-linear-gradient(top, #2ff3fa, #f076e2);
+    background-image: -o-linear-gradient(top, #2ff3fa, #f076e2);
+    background-image: linear-gradient(to bottom, #2ff3fa, #f076e2);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: 'Merriweather', serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    
+  }
+  hr{
+      border-top: 10px dotted rgb(197, 196, 196);
+      width:10%;
+      margin: auto;
+  }
+  .formsubmit:hover {
+    background: #b62ffa;
+    background-image: -webkit-linear-gradient(top, #b62ffa, #9734d9);
+    background-image: -moz-linear-gradient(top, #b62ffa, #9734d9);
+    background-image: -ms-linear-gradient(top, #b62ffa, #9734d9);
+    background-image: -o-linear-gradient(top, #b62ffa, #9734d9);
+    background-image: linear-gradient(to bottom, #b62ffa, #9734d9);
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .formheading{
+      text-align: center;
+      font-family: 'Merriweather', serif;
+  }
+  .locate{
+      padding:30%;
+      font-family: 'Merriweather', serif;
+      font-size: 18px;
+  }
+  .text-footer{
+      text-align: center;
+      width: 50%;
+      margin: auto;
+      padding-top: 30px;
+      font-family: 'Merriweather', serif;
+      font-size: 10px;
+  }
+  .locate{
+      width: 50%;
+      margin: auto;
+
+  }
+  .bottomcontainer{
+    background-color: rgb(153, 234, 248);
+    margin-bottom: 0px;
+
+  }
+  .bottom-container{
+      
+      margin: auto;
+      margin-bottom: 0px;
+      justify-content: center;
+    align-items: center;
+  }
+  .a-bottom{
+      padding-left: 29%;
+      
+  }
+  .bottom-a:hover{
+      color: rgb(216, 34, 240);
+  }
+  .bottom-a{
+      text-decoration: none;
+      font-family: 'Merriweather', serif;
+      padding:10px;
+      margin-bottom: 0px;
+      color: rgb(26, 151, 173);
+      justify-content: center;
+      align-items: center;
+      padding-left: ;
+  }
+  .copyright{
+    margin-bottom: 0px;
+    padding: 10px;
+    text-align: center;
+  }
+  .block3{
+      display: flex;
+      vertical-align: auto;
+      justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .burger{
+       display: none;
+      position: absolute;
+      cursor: pointer;
+      right: 5%;
+      top: 15px;
+  }
+  .line{
+      width: 33px;
+      background-color: rgb(5, 122, 122);
+      height: 4px;
+      margin:5px 3px;
+  }
+
+
+  @media only screen and (max-width: 1060px){
+    *{
+        margin-right:0px;
+        padding-right: 0px;
+        border-right: 0px;
+    }
+    
+        body{
+            width: 100%;
+            height:100%;
+            overflow-x: hidden;
+        margin:0px;
+        margin-right: 0px;
+        padding: 0px;
+        
+    }
+    .navlist{
+        flex-direction: column;
+    }
+    .navbar{
+        margin-right: 0px;
+        padding-right: 0px;
+        background-image: linear-gradient(rgb(253, 199, 250),rgb(194, 255, 251));
+        flex-direction: column;
+        width: 100%;
+    }
+    .rightnav{
+        text-align: center;
+    }
+    #search{
+        width: 100%;
+    }
+    .burger{
+      display:block;
+    }
+     .h-nav-resp{
+    height: 300px;
+    }
+    .navlist li{
+        text-decoration: none;
+        color:rgb(4, 134, 134);
+        padding: 5px;
+    }
+    .logo{
+        position: sticky;
+        margin-bottom: 10px;
+    }
+    
+    .form{
+        margin:auto;
+        justify-content: center;
+        align-items: center;
+        width:90%;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        font-family: 'Merriweather', serif;
+        padding: 35px;
+        border: 2px solid rgb(255, 255, 255);
+        background-image: linear-gradient(rgb(209, 252, 250),rgb(246, 223, 247));
+       
+        
+        background-blend-mode:lighten;
+        border-width: 5px;
+        border-radius: 12px;
+    }
+    .box{
+        width: 80%;
+    }
+    hr{
+        border-top: 10px dotted rgb(197, 196, 196);
+        width:30%;
+        margin: auto;
+    }
+    .copyright{
+        font-size: 10px;
+    }
+      
+  .block3{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .b1{
+    width:50%;
+    
+}
+.b2{
+    width:50%;
+}
+.b3{
+    width:50%;
+}
+  }
+
+  @media only screen and (min-width: 1060px){
+      .navbar{
+          position: sticky;
+      }
+    }
